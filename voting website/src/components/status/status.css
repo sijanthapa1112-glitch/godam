@@ -1,0 +1,80 @@
+.status-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8399c0, #3d5a80);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0fbfc;
+}
+
+.status-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #e0fbfc;
+}
+
+.subtitle {
+  color: #98c1d9;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+.status-list {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.status-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.status-card:hover {
+  transform: translateY(-4px);
+}
+
+
+.status-card.leader {
+  border: 2px solid #ee6c4d;
+  box-shadow: 0 6px 16px rgba(238,108,77,0.4);
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.candidate-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #e0fbfc;
+}
+
+.votes {
+  font-size: 0.95rem;
+  color: #98c1d9;
+}
+
+/* Progress bar */
+.progress-bar {
+  background: #98c1d9;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 16px;
+}
+
+.progress {
+  background: #ee6c4d;
+  height: 100%;
+  transition: width 0.4s ease;
+}

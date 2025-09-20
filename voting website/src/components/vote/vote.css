@@ -1,0 +1,59 @@
+
+/* Title */
+
+
+/* Options container */
+.vote-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Individual option */
+.vote-option {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 15px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.vote-option:hover {
+  border-color: #007bff;
+  background: #f0f8ff;
+}
+
+.vote-option input {
+  margin-right: 12px;
+  transform: scale(1.2);
+  accent-color: #007bff; 
+}
+
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button:active {
+  transform: scale(0.97);
+}
